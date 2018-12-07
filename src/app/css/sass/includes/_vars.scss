@@ -1,0 +1,118 @@
+// @import "../../../../node_modules/compass-mixins/lib/_compass";
+
+// /* COLORS */
+// $color-black			: #000000;
+// $color-white			: #FFFFFF;
+
+// $color-body-alpha		: rgba(60, 81, 97, 0.9);
+// $color-white-mask		: rgba(255, 255, 255, 0.5);
+// $color-dark-glass		: rgba(0, 0, 0, 0.6);
+// $color-gray-darkest		: #B0AFB0;
+// $color-gray-label		: #828282;
+// $color-gray-icon		: #B4B4B4;
+// $color-green			: #009B09;
+// $color-medium-green		: #079948;
+// $color-dark-green		: #046326;
+// $color-light-green		: #F0F7F2;
+// $color-red				: #D93636;
+// $color-text				: #3C5161;
+// $color-text-dark		: #002100;
+// $color-contacts-blue	: #222A7E;
+// $color-medium-blue		: #0092EB;
+// $color-medium-light-blue: #66bef3;
+// $color-light-blue		: #CCDDF0;
+// $color-light-blue-bg	: #f6fbff;
+// $color-bg-gray-home		: #f5f5f5;
+// $color-bg-gray			: #EDEDED;
+// $color-bg-gray-light	: #F6F6F7;
+// $color-border			: #CCCCCC;
+// $color-yellow			: #FFD000;
+// $color-orange			: #F17023;
+// $color-transparent		: rgba(0, 0, 0, 0);
+// $color-overlay			: rgba(0, 0, 0, 0.6);
+// $mobile-background-color: #2e2e2e;
+
+// $color-link-hover		: $color-medium-blue;
+// $color-orange-hover		: #EB5023;
+
+// /* FONTS */
+// $global-font-size 	: 16px;
+
+// /* FONTS */
+// $font-base							: Arial, sans-serif;
+// $font-contacts-neue-medium-condensed: "ContactsNeueMediumCondensed", $font-base;
+// $font-contacts-neue-bold-condensed	: "ContactsNeueBoldCondensed", $font-base;
+// $font-proxima-nova-light			: "ProximaNovaLight", $font-base;
+// $font-proxima-nova					: "ProximaNova", $font-base;
+// $font-proxima-nova-semibold			: "ProximaNovaSemiBold", $font-base;
+// $font-proxima-nova-bold				: "ProximaNovaBold", $font-base;
+
+// /* MEDIA QUERIES */
+// $breakpoint-mobile-small	: "min-width: 320px";
+// $breakpoint-mobile			: "min-width: 480px";
+// $breakpoint-tablet-portrait	: "min-width: 768px";
+// $breakpoint-desktop			: "min-width: 992px";
+// $breakpoint-desktop-large	: "min-width: 1200px";
+
+// $breakpoint-mobile-small-max	: "max-width: 319px";
+// $breakpoint-mobile-max			: "max-width: 479px";
+// $breakpoint-tablet-portrait-max	: "max-width: 767px";
+// $breakpoint-desktop-max			: "max-width: 991px";
+// $breakpoint-desktop-large-max	: "max-width: 1199px";
+
+// /* HEADER */
+// $header-height: 65px;
+
+// /* FORMS */
+// $form-element-height: 50px;
+// $color-error-border: #d12824;
+// $color-error-bg: #ffecec;
+
+// /* LAYOUT */
+// $standard-spacing: 15px;
+// $large-spacing: $standard-spacing * 2;
+// $content-spacing-top: 45px;
+// $content-spacing-top-mobile: 25px;
+
+// $border-default: $color-border 1px solid;
+
+// $brand-menu-width: 240px;
+
+// @mixin radio-button-outline-fill() {
+// 	content: '';
+// 	position: absolute;
+// 	top: 50%;
+// 	left: 50%;
+// 	@include transform(translate(-50%, -50%));
+// 	@include border-radius(50%);
+// }
+
+// @mixin radio-button-outline() {
+// 	@include radio-button-outline-fill;
+// 	width: 21px;
+// 	height: 21px;
+// 	border: $border-default;
+// }
+
+// @mixin radio-button-fill() {
+// 	@include radio-button-outline-fill;
+// 	width: 11px;
+// 	height: 11px;
+// 	background-color: $color-medium-blue;
+// }
+
+// /* Z-INDEX */
+// $z-overlay: 1200;
+// $z-spinner: 1050;
+// $z-message: 1100;
+// $z-modal: 1150;
+// $z-header-top: 700;
+// $z-header-middle: 650;
+// $z-panel: 600;
+// $z-header: 500;
+// $z-header-behind: 490;
+// $z-page-top: 15;
+// $z-page-middle: 10;
+// $z-page-bottom: 5;
+// $z-base: 1;
+// $z-hide: -1;
