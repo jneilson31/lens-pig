@@ -1,6 +1,7 @@
 @import "src/styles";
 
 .homeHero {
-    background-image: linear-gradient(to bottom, $color-pig-light-pink, $color-pig-pink);
-    height: 600px;
+    background-color: $color-pig-pink;
+    color: $color-white;
+    height: 500px;
 }
