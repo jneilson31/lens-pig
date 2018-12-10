@@ -1,21 +1,24 @@
-@mixin font-face-new($name, $file_root) {
-    @font-face {
-      font-family: '#{$name}';
-      src: url('../../webfonts/Cabin-Regular-webfont.ttf');
-    //   src: url('webfonts/#{$file_root}.eot');
-    //   src: url('webfonts/#{$file_root}.eot?##{$file_root}') format('embedded-opentype'),
-    //   url('webfonts/#{$file_root}.woff') format('woff'),
-    //   url('webfonts/#{$file_root}.ttf')  format('truetype');
-    }
-  }
+// @mixin font-face-new($name, $file_root) {
+//     @font-face {
+//       font-family: '#{$name}';
+//       src: url('../../webfonts/Cabin-Regular-webfont.ttf');
+//       src: url('webfonts/#{$file_root}.eot');
+//       src: url('webfonts/#{$file_root}.eot?##{$file_root}') format('embedded-opentype'),
+//       url('webfonts/#{$file_root}.woff') format('woff'),
+//       url('webfonts/#{$file_root}.ttf')  format('truetype');
+//     }
+//   }
 
-  @include font-face-new('Cabin-Regular', 'Cabin-Regular-webfont');
-  @include font-face-new('ProximaNova', 'proximanova-regular-webfont');
+ 
   
-  @mixin column-fill($fill) {
-      -webkit-column-fill: $fill;
-      -moz-column-fill: $fill;
-      -ms-column-fill: $fill;
-      -o-column-fill: $fill;
-      column-fill: $fill;
-  }
+//   @mixin column-fill($fill) {
+//       -webkit-column-fill: $fill;
+//       -moz-column-fill: $fill;
+//       -ms-column-fill: $fill;
+//       -o-column-fill: $fill;
+//       column-fill: $fill;
+//   }
+
+
+//   @include font-face-new('Cabin-Regular', 'Cabin-Regular-webfont');
+//   @include font-face-new('ProximaNova', 'proximanova-regular-webfont');
