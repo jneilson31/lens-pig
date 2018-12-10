@@ -1,5 +1,3 @@
-// @import "../../../../node_modules/compass-mixins/lib/_compass";
-
 // /* COLORS */
 $color-black: #000000;
 $color-white: #FFFFFF;
@@ -40,11 +38,13 @@ $color-pig-silver: #d9d9d9;
 // $color-link-hover		: $color-medium-blue;
 // $color-orange-hover		: #EB5023;
 
-// /* FONTS */
-// $global-font-size 	: 16px;
 
 // /* FONTS */
-// $font-base							: Arial, sans-serif;
+$font-size-global: 16px;
+$font-base: Arial, sans-serif;
+// $font-robo-condensed: "RobotoCondensed", $font-base;
+// $font-cabin: "Cabin", $font-base;  
+
 // $font-contacts-neue-medium-condensed: "ContactsNeueMediumCondensed", $font-base;
 // $font-contacts-neue-bold-condensed	: "ContactsNeueBoldCondensed", $font-base;
 // $font-proxima-nova-light			: "ProximaNovaLight", $font-base;

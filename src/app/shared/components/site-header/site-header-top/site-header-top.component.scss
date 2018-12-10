@@ -2,14 +2,18 @@
 @import "src/styles";
 
 
+.headerLogo {
+    width: 25%;
+    margin-right: 12px;
+}
+
+
 .headerTop {
     height: 100px;
     background-color: $color-white;
-    a {
-        padding: 20px;
-    }
 }
 
 .navbar-brand {
     padding-right: 60px;
+    font-size: 28px;
 }

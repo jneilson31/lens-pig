@@ -1,0 +1,34 @@
+a.label {
+	&:hover, &:focus {
+		color: inherit;
+		text-decoration: inherit;
+		cursor: inherit;
+	}
+}
+
+.btn .label {
+	position: inherit;
+	top: inherit;
+}
+
+.container {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.label {
+	&:empty { display: inherit; }
+
+	display: inherit;
+	padding: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	color: inherit;
+	text-align: inherit;
+	white-space: inherit;
+	vertical-align: inherit;
+	border-radius: inherit;
+}
+
+p { margin: 0 0 15px; }
