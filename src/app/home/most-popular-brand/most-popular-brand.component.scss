@@ -1,0 +1,40 @@
+@import "src/styles";
+
+.card {
+    margin: 20px auto;
+    ul {
+        a {
+            color: $color-black;
+        }
+    }
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 8px 1.25rem;
+}
+
+.card-img-top {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.lens-price {
+    font-size: 18px;
+    padding-left: 8px;
+    color: $color-pig-pink;
+}
+
+.list-group {
+    .list-group-item {
+        font-size: 14px;
+        background-color: lighten($color-pig-silver, 10%);
+    }
+}
+
+
+
