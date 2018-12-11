@@ -7,6 +7,7 @@ import { SiteHeaderTopComponent } from './shared/components/site-header/site-hea
 import { SiteHeaderBottomComponent } from './shared/components/site-header/site-header-bottom/site-header-bottom.component';
 import { SiteFooterComponent } from './shared/components/site-footer/site-footer.component';
 import { HomeComponent } from './home/home.component';
+import { MostPopularBrandComponent } from './home/most-popular-brand/most-popular-brand.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HomeComponent } from './home/home.component';
     SiteHeaderBottomComponent,
     SiteFooterComponent,
     HomeComponent,
+    MostPopularBrandComponent,
   ],
   imports: [
     BrowserModule,
