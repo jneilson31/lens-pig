@@ -1,16 +1,22 @@
 @import "src/styles";
 
 .homeHero {
-    background-color: $color-pig-pink;
+    // background-color: $color-pig-pink;
+    background-image: linear-gradient(to bottom, $color-pig-pink, lighten($color-pig-pink, 10%));
     color: $color-white;
     height: 500px;
+    margin-bottom: 20px;
 }
 
 .tag-line {
-    margin-top: 60px;
     margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 p {
     margin-bottom: 25px;
+}
+
+.period {
+    color: $color-pig-brown;
 }
