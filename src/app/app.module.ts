@@ -8,6 +8,7 @@ import { SiteHeaderBottomComponent } from './shared/components/site-header/site-
 import { SiteFooterComponent } from './shared/components/site-footer/site-footer.component';
 import { HomeComponent } from './home/home.component';
 import { MostPopularBrandComponent } from './home/most-popular-brand/most-popular-brand.component';
+import { HowItWorksComponent } from './home/how-it-works/how-it-works.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MostPopularBrandComponent } from './home/most-popular-brand/most-popula
     SiteFooterComponent,
     HomeComponent,
     MostPopularBrandComponent,
+    HowItWorksComponent,
   ],
   imports: [
     BrowserModule,

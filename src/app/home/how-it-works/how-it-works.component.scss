@@ -1,0 +1,12 @@
+@import "src/styles";
+
+.how-it-works {
+    padding: 24px;
+    background-color: lighten($color-pig-silver, 10%);
+}
+
+.how-it-works-icons {
+    max-width: 35%;
+    display: block;
+    margin: 24px auto;
+}
