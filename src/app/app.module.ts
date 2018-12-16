@@ -9,6 +9,8 @@ import { SiteFooterComponent } from './shared/components/site-footer/site-footer
 import { HomeComponent } from './home/home.component';
 import { MostPopularBrandComponent } from './home/most-popular-brand/most-popular-brand.component';
 import { HowItWorksComponent } from './home/how-it-works/how-it-works.component';
+import { HttpModule } from '@angular/http';
+import { PricesService } from './shared/services/prices.service';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,10 @@ import { HowItWorksComponent } from './home/how-it-works/how-it-works.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [PricesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
