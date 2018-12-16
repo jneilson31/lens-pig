@@ -9,17 +9,17 @@
           <h5 class="card-title">Acuvue Oasys 12pk</h5>
         </div>
         <ul class="list-group list-group-flush">
-          <a href="#">
+          <a [href]= "acLensLink | async" target="blank">
             <li class="list-group-item">ACLens.com
               <div class="float-right">As low as <span class="lens-price">{{acLensPrice | async}}</span></div>
             </li>
           </a>
-          <a href="#">
+          <a [href]="lensLink | async" target="blank">
             <li class="list-group-item">Lens.com
               <div class="float-right">As low as <span class="lens-price">{{lensPrice | async}}</span></div>
             </li>
           </a>
-          <a href="#">
+          <a [href]="contactsLink | async" target="blank">
             <li class="list-group-item">1-800Contacts
               <div class="float-right">As low as <span class="lens-price">{{contactsPrice | async}}</span></div>
             </li>

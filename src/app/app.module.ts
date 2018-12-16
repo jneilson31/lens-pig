@@ -11,6 +11,7 @@ import { MostPopularBrandComponent } from './home/most-popular-brand/most-popula
 import { HowItWorksComponent } from './home/how-it-works/how-it-works.component';
 import { HttpModule } from '@angular/http';
 import { PricesService } from './shared/services/prices.service';
+import { LinksService } from './shared/services/links.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { PricesService } from './shared/services/prices.service';
     AppRoutingModule,
     HttpModule
   ],
-  providers: [PricesService],
+  providers: [PricesService, LinksService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
