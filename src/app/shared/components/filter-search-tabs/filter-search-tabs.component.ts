@@ -6,15 +6,17 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./filter-search-tabs.component.scss']
 })
 export class FilterSearchTabsComponent implements OnInit {
-  @Output() featureSelected = new EventEmitter<string>();
+  //@Output() selectedTab = new EventEmitter<string>();
+
+  tabOption = 'byPopularBrand';
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  onSelect(feature: string) {
-    this.featureSelected.emit(feature);
+  onSelect(clickedTab: string) {
+    this.tabOption = clickedTab;
+    //this.selectedTab.emit(clickedTab);
   }
-
 }
