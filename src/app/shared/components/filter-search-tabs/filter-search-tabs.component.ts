@@ -19,4 +19,10 @@ export class FilterSearchTabsComponent implements OnInit {
     this.tabOption = clickedTab;
     //this.selectedTab.emit(clickedTab);
   }
+
+  // public scrollToLearnMore(): void {
+	// 	$([document.documentElement, document.body]).animate({
+	// 		scrollTop: $("#learnMore").offset().top
+	// 	}, 350);
+	// }
 }
