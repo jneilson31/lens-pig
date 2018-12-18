@@ -9,13 +9,7 @@ import { SiteFooterComponent } from './shared/components/site-footer/site-footer
 import { HomeComponent } from './home/home.component';
 import { MostPopularBrandComponent } from './shared/components/filter-search-tabs/most-popular-brand/most-popular-brand.component';
 import { HowItWorksComponent } from './home/how-it-works/how-it-works.component';
-
-import { HttpModule } from '@angular/http';
-import { PricesService } from './shared/services/prices.service';
-import { LinksService } from './shared/services/links.service';
-
 import { FilterSearchTabsComponent } from './shared/components/filter-search-tabs/filter-search-tabs.component';
-
 
 @NgModule({
   declarations: [
@@ -30,10 +24,9 @@ import { FilterSearchTabsComponent } from './shared/components/filter-search-tab
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpModule
+    AppRoutingModule
   ],
-  providers: [PricesService, LinksService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
