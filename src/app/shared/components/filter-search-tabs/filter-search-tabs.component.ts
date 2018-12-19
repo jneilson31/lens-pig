@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-filter-search-tabs',
@@ -17,12 +18,13 @@ export class FilterSearchTabsComponent implements OnInit {
 
   onSelect(clickedTab: string) {
     this.tabOption = clickedTab;
+    this.scrollToAnchor();
     //this.selectedTab.emit(clickedTab);
   }
 
-  // public scrollToLearnMore(): void {
-	// 	$([document.documentElement, document.body]).animate({
-	// 		scrollTop: $("#learnMore").offset().top
-	// 	}, 350);
-	// }
+  public scrollToAnchor(): void {
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#filterSearchNav").offset().top - 65
+		}, 350);
+	}
 }
