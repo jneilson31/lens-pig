@@ -1,0 +1,16 @@
+@import "src/styles";
+
+button {
+    color: $color-pig-dark-blue;
+}
+
+.brandList {
+    font-size: 14px;
+
+    li {
+        list-style-type: disc;
+        text-decoration: underline;
+        color: $color-pig-dark-blue;
+        
+    }
+}
