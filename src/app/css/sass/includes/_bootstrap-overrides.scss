@@ -11,6 +11,10 @@ a.label {
 	top: inherit;
 }
 
+body {
+	color: $color-pig-dark-blue;
+}
+
 button {
 	border: none;
 }
@@ -21,7 +25,6 @@ button {
 }
 
 h3 {
-	color: $color-pig-dark-blue;
 	text-align: center;
 }
 
