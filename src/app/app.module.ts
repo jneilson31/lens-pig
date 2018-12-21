@@ -28,7 +28,7 @@ import { ByLensTypeComponent } from './shared/components/filter-search-tabs/by-l
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
