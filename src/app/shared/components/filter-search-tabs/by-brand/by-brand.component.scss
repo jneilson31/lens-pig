@@ -15,7 +15,6 @@ button[aria-expanded="true"] > .expand_caret {
     li {
         list-style-type: disc;
         text-decoration: underline;
-        color: $color-pig-dark-blue;
         
     }
 }
@@ -27,13 +26,14 @@ button[aria-expanded="true"] > .expand_caret {
 }
 
 .headerText {
-    padding: 16px;
     margin-bottom: 0;
+    padding: 16px;
 }
 
 
 i {
-    line-height: 30px;
+    color: $color-pig-pink;
     float: right;
     font-size: 20px;
+    line-height: 30px;
 }
