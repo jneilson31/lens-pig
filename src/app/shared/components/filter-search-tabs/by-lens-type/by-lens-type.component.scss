@@ -5,6 +5,9 @@ button {
     width: 100%;
 }
 
+button[aria-expanded="true"] > .expand_caret {
+    transform: rotate(90deg);
+}
 
 .brandList {
     font-size: 14px;

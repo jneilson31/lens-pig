@@ -9,7 +9,7 @@ import * as $ from 'jquery';
 export class FilterSearchTabsComponent implements OnInit {
   //@Output() selectedTab = new EventEmitter<string>();
 
-  tabOption = 'byPopularBrand';
+  tabOption = 'byBrand';
 
   constructor() { }
 

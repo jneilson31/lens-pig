@@ -1,17 +1,17 @@
 @import "src/styles";
 
 .filterTabs {
-    // border-left: 1px solid $color-pig-darker-blue;
     background-color: lighten($color-pig-silver, 10%);
     border-right: 1px solid $color-pig-silver;    
     font-size: 12px;
-    height: 65px;
-    margin-bottom: 8px;
     padding: 8px;
     text-align: center;
-    width: 33.3%;
     a {
         color: $color-pig-darker-blue;
-    }
-    
+    }  
 }
+
+li {
+    list-style: none;
+}
+
