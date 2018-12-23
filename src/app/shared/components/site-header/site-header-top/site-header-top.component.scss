@@ -1,6 +1,14 @@
 // @import "src/app/css/sass/includes/_vars";
 @import "src/styles";
 
+button:focus {
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $color-pig-dark-blue;
+}
+
 .headerLogo {
     width: 25%;
     margin-right: 12px;
@@ -8,7 +16,7 @@
 
 
 .headerTop {
-    height: 65px;
+    // height: 65px;
     background-color: $color-white;
     box-shadow: 0px 1px 15px lighten($color-black, 50%);
 }
@@ -16,3 +24,9 @@
 .navbar-brand {
     font-size: 28px;
 }
+
+.searchBtn {
+    background-color: $color-pig-dark-blue;
+    color: $color-white;
+}
+

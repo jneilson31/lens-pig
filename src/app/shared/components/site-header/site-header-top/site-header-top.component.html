@@ -1,21 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light headerTop fixed-top container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light headerTop fixed-top">
   <a class="navbar-brand" href="#"> <img class="img-responsive headerLogo" src="https://i.imgur.com/SFrvGzi.png" alt="">LensPig</a>
-  <button class="navbar-toggler" disabled type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
+      <div class="input-group my-3">
+        <input type="text" class="form-control" placeholder="Search for your brand..." aria-label="Recipient's username"
+          aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn searchBtn" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="dropdown-divider"></div>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#">Most Popular Brand <span class="sr-only">(current)</span></a>
       </li>
+      <div class="dropdown-divider"></div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Search by Brand</a>
+      </li>
+      <div class="dropdown-divider"></div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Search by Lens Type</a>
+      </li>
+      <div class="dropdown-divider"></div>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
