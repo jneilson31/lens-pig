@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  loadedFeature = 'byPopularBrand'
+
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
+  }
+
   constructor() { }
 
   ngOnInit() {

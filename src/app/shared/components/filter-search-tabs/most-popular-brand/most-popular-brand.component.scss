@@ -1,10 +1,10 @@
 @import "src/styles";
 
 .card {
-    margin: 20px auto;
+    margin: 0px auto 20px;
     ul {
         a {
-            color: $color-black;
+            color: $color-pig-dark-blue;
         }
     }
 }
@@ -20,7 +20,13 @@
 }
 
 .card-title {
+    color: $color-pig-dark-blue;
     font-size: 18px;
+}
+
+.headerText {
+    margin-bottom: 0;
+    padding: 16px;
 }
 
 .lens-price {
@@ -35,6 +41,3 @@
         background-color: lighten($color-pig-silver, 10%);
     }
 }
-
-
-

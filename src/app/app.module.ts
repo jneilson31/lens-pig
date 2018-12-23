@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { MostPopularBrandComponent } from './shared/components/filter-search-tabs/most-popular-brand/most-popular-brand.component';
 import { HowItWorksComponent } from './home/how-it-works/how-it-works.component';
 import { FilterSearchTabsComponent } from './shared/components/filter-search-tabs/filter-search-tabs.component';
+import { ByBrandComponent } from './shared/components/filter-search-tabs/by-brand/by-brand.component';
+import { ByLensTypeComponent } from './shared/components/filter-search-tabs/by-lens-type/by-lens-type.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { FilterSearchTabsComponent } from './shared/components/filter-search-tab
     MostPopularBrandComponent,
     HowItWorksComponent,
     FilterSearchTabsComponent,
+    ByBrandComponent,
+    ByLensTypeComponent,
   ],
   imports: [
     BrowserModule,

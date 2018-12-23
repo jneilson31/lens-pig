@@ -1,19 +1,29 @@
 <div id="filterSearchNav">
-  <ul class="nav justify-content-center">
-    <li class="nav-item filterTabs">
-      <a class="nav-link active" href="#filterSearchNav" (click)="onSelect('byPopularBrand')">Most Popular Brands</a>
-    </li>
-    <li class="nav-item filterTabs">
-      <a class="nav-link" href="#filterSearchNav" (click)="onSelect('byBrand')">Search By Brand</a>
-    </li>
-    <li class="nav-item filterTabs">
-      <a class="nav-link" href="#filterSearchNav" (click)="onSelect('byLensType')">Search By Lens Type</a>
-    </li>
-  </ul>
-  <app-most-popular-brand *ngIf="tabOption === 'byPopularBrand'"></app-most-popular-brand>
-  <app-by-brand *ngIf="tabOption === 'byBrand'"></app-by-brand>
-  <app-by-lens-type *ngIf="tabOption === 'byLensType'"></app-by-lens-type>
+  <div class="row row-eq-height no-gutters">
+    <div class="col">
+      <li class="nav-item filterTabs">
+        <a class="nav-link" href="#filterSearchNav" (click)="onSelect('byPopularBrand')">Most Popular Brands</a>
+      </li>
+    </div>
+    <div class="col">
+      <li class="nav-item filterTabs">
+        <a class="nav-link" href="#filterSearchNav" (click)="onSelect('byBrand')">Search by Brand</a>
+      </li>
+    </div>
+    <div class="col">
+      <li class="nav-item filterTabs">
+        <a class="nav-link" href="#filterSearchNav" (click)="onSelect('byLensType')">Search By Lens Type</a>
+      </li>
+    </div>
+  </div>
 </div>
+<app-most-popular-brand *ngIf="tabOption === 'byPopularBrand'"></app-most-popular-brand>
+<app-by-brand *ngIf="tabOption === 'byBrand'"></app-by-brand>
+<app-by-lens-type *ngIf="tabOption === 'byLensType'"></app-by-lens-type>
+
+
+  
+
 
 
 

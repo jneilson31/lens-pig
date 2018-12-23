@@ -1,5 +1,9 @@
 @import "src/styles";
 
+h5 {
+    color: $color-pig-pink;
+}
+
 .how-it-works {
     padding: 24px;
     background-color: lighten($color-pig-silver, 10%);
@@ -9,8 +13,4 @@
     max-width: 35%;
     display: block;
     margin: 24px auto;
-}
-
-hr {
-    color: black;
 }

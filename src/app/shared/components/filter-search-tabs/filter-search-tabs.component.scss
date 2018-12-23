@@ -1,17 +1,56 @@
 @import "src/styles";
 
+button {
+    color: $color-pig-dark-blue;
+    width: 100%;
+}
+
+button[aria-expanded="true"] > .expand_caret {
+    transform: rotate(90deg);
+}
+
+.brandList {
+    font-size: 14px;
+    ul {
+        li{
+            list-style-type: disc;
+            text-decoration: underline;
+        }
+    }
+}
+
+.card-brand-header {
+    background-color: lighten($color-pig-silver, 10%);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: .75rem 1.25rem;
+}
+
 .filterTabs {
-    // border-left: 1px solid $color-pig-darker-blue;
     background-color: lighten($color-pig-silver, 10%);
     border-right: 1px solid $color-pig-silver;    
     font-size: 12px;
-    height: auto;
-    margin-bottom: 8px;
     padding: 8px;
     text-align: center;
-    width: 33.3%;
     a {
         color: $color-pig-darker-blue;
-    }
-    
+    }  
 }
+
+.headerText {
+    margin-bottom: 0;
+    padding: 16px;
+}
+
+
+i {
+    color: $color-pig-pink;
+    float: right;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+

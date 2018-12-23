@@ -1,0 +1,13 @@
+@import "src/styles";
+
+footer {
+    background-color: $color-pig-pink;
+    background-image: linear-gradient(to bottom, $color-pig-pink, lighten($color-pig-pink, 10%));
+    height: 25px;
+}
+
+.footerText {
+    color: $color-pig-dark-blue;
+    font-size: 12px;
+    line-height: 25px;
+}
