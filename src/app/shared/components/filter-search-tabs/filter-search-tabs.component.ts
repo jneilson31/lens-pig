@@ -24,7 +24,7 @@ export class FilterSearchTabsComponent implements OnInit {
 
   public scrollToAnchor(): void {
 		$([document.documentElement, document.body]).animate({
-			scrollTop: $("#filterSearchNav").offset().top - 65
+			scrollTop: $("#filterSearchNav").offset().top - 78
 		}, 350);
 	}
 }
